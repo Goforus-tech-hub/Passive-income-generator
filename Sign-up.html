@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration Form</title>
+  <style>
+    /* Your existing CSS styles */
+    /* ... */
+    body {
+      background: #F5F5F5 url('background.jpg') no-repeat center center fixed; /* Default background color and image */
+      background-size: cover;
+      color: #333333;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #FFFFFF; /* Default container background color */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #FF0000; /* Default heading color */
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #CCCCCC;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4285F4; /* Default button color */
+      color: #FFFFFF;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    /* Add additional styling for login section */
+    .login-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .login-section a {
+      color: #4285F4; /* Link color */
+      text-decoration: none;
+    }
+    /* Additional styles for website title and motto */
+    .website-title {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      color: #4285F4; /* Choose your title color */
+    }
+
+    .website-motto {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #777777; /* Choose your motto color */
+    }
+
+    /* Additional styles for logo */
+    .logo {
+      display: block;
+      margin: 0 auto;
+      width: 50px; /* Set the width of your logo */
+      height: 50px; /* Set the height of your logo */
+      margin-bottom: 10px;
+      /* Add any additional styles for your logo (e.g., border-radius, etc.) */
+    }
+
+    /* Additional styles for password guidance */
+    .password-guidance {
+      margin-bottom: 10px;
+      color: #777777; /* Choose your guidance color */
+    }
+  </style>
+</head>
+<body>
+          <div class="container">
+<!-- Website title and motto -->
+<div class="website-title">Welcome to <strong>Goforus schools</strong></div>
+<img src="https://goforusschools.com/wp-content/uploads/2023/05/cropped-Screenshot-2023-01-06-005035.png" alt="Your Website Logo" class="logo">
+        <h1>Create Account</h1>
+        <form action="registration_complete.html" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+    
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+          <div class="password-guidance">Password must be at least 8 characters long and contain a mix of uppercase and lowercase letters, numbers, and special characters.</div>
+
+          <label for="referral">Referral Code (optional):</label>
+          <input type="text" id="referral" name="referral">
+    
+          <input type="submit" value="Register">
+
+              <!-- Login redirect section -->
+  <div class="login-section">
+    <p>Already have an account? <a href="login.html">Log in here</a></p>
+  </div>
+</body>
+</html>
