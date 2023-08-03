@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: maroon;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: calc(flex);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+     background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e0e0e0;
+}
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: blue;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+tr:hover {
+    background-color: goldenrod;
+}
+.description {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+.link-button {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.link-button:hover {
+    background-color: #2584c0;
+}
