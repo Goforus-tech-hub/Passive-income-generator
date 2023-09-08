@@ -8,7 +8,8 @@ body {
   }
   
   .container {
-    max-width: 400px;
+    max-width: 500px;
+    max-height: auto;
     margin: 20px auto;
     padding: 20px;
     background-color: #FFFFFF;
@@ -16,7 +17,7 @@ body {
     border-radius: 5px;
   }
   
-  h1 {
+  h2 {
     text-align: center;
     color: maroon;
     margin-bottom: 20px;
@@ -86,6 +87,7 @@ body {
     border: 2px solid #FFFFFF; /* Add a white border around the logo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
+   
   
   /* Additional styles for password guidance */
   .password-guidance {
@@ -102,5 +104,13 @@ body {
   input:focus {
     outline: none;
     border-color: #4285F4;
+  }
+
+   /* Media query for logo responsiveness */
+   @media screen and (max-width: 768px) {
+    .logo {
+      max-width: 100%;
+      height: auto;
+    }
   }
   
