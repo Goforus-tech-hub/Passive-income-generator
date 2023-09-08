@@ -1,21 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
     margin: 0;
     padding: 0;
-    background-color: maroon;
-    color: #333;
+
+    color: black;
 }
 h1 {
     text-align: center;
     padding: 20px 0;
-    color: white;
+    color: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: calc(flex);
 }
 table {
     border-collapse: collapse;
     width: 100%;
-    max-width: 800px;
+    max-width: auto;
+    max-height: auto;
     margin: 0 auto;
      background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -42,15 +44,16 @@ tr:hover {
 .description {
     text-align: center;
     margin-top: 20px;
-    color: white;
+    color: blue;
     font-size: 18px;
 }
 .link-button {
     display: inline-block;
     text-align: center;
     margin-top: 10px;
-    background-color: blue;
+    background-color: black;
     color: white;
+    font-size: large;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -60,3 +63,11 @@ tr:hover {
 .link-button:hover {
     background-color: #2584c0;
 }
+/* Media query for logo responsiveness */
+@media screen and (max-width: 768px) {
+    .logo {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
